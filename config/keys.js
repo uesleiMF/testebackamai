@@ -1,4 +1,5 @@
-module.exports = {
-  mongoURI:  "mongodb://localhost:27017/AmaiSempre",
+let config = {
+  dbUrl: "mongodb+srv://jumf:711179@cluster0.66bqn.mongodb.net/AmaiSempre",
   secretOrKey: "secret"
 };
+module.exports = config;

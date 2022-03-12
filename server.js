@@ -7,7 +7,8 @@ var multer = require('multer'),
   bodyParser = require('body-parser'),
   path = require('path');
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/productDB");
+mongoose.connect("mongodb+srv://jumf:711179@cluster0.66bqn.mongodb.net/AmaiSempre");
+ 
 var fs = require('fs');
 var product = require("./model/product.js");
 var user = require("./model/user.js");
