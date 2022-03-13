@@ -1,11 +1,12 @@
 var express = require("express");
 var app = express();
-var bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt');
 var jwt = require('jsonwebtoken');
 var cors = require('cors');
 var multer = require('multer'),
   bodyParser = require('body-parser'),
   path = require('path');
+
 
 var fs = require('fs');
 var product = require("./model/product.js");
@@ -365,6 +366,8 @@ app.get("/get-product", (req, res) => {
   }
 
 });
+
+
 
 if(process.env.NODE_ENV !== 'production') {
   require('dotenv').config()
