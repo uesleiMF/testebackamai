@@ -1,10 +1,9 @@
-
-const express = require("express");
-const app = express();
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
-const cors = require('cors');
-const multer = require('multer'),
+var express = require("express");
+var app = express();
+var bcrypt = require('bcrypt');
+var jwt = require('jsonwebtoken');
+var cors = require('cors');
+var multer = require('multer'),
   bodyParser = require('body-parser'),
   path = require('path');
 
