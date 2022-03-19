@@ -1,5 +1,5 @@
 {
-  "name": "login-backend",
+  "name": "testebackamai",
   "version": "1.0.0",
   "description": "ejemplo de login usando MERN stack",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
     },
-  "author": "Nicolas Morales",
+  "author": "ues",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
